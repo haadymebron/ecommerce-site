@@ -4,7 +4,7 @@ require('dotenv').config();
 const demoProducts = [
   {
     name: "Engineering Mathematics (Used)",
-    price: 450.00,
+    price: 395.00,
     description: "Like new condition. Perfect for Engineering courses. Minimal markups and notes.",
     image: "https://images.unsplash.com/photo-1544947950-fa07a98d237f?auto=format&fit=crop&q=80&w=800",
     category: "Textbooks",
@@ -12,7 +12,7 @@ const demoProducts = [
   },
   {
     name: "Data Structures & Algorithms",
-    price: 650.00,
+    price: 485.00,
     description: "Essential for CS/IT students. Good condition, clean pages, all chapters intact.",
     image: "https://images.unsplash.com/photo-1547519319-4cb517303540?auto=format&fit=crop&q=80&w=800",
     category: "Textbooks",
@@ -20,7 +20,7 @@ const demoProducts = [
   },
   {
     name: "Organic Chemistry Textbook",
-    price: 580.00,
+    price: 425.00,
     description: "Perfect for Chemistry courses. Well-preserved with study notes.",
     image: "https://images.unsplash.com/photo-1564076595217-d4dc5ebe6122?auto=format&fit=crop&q=80&w=800",
     category: "Textbooks",
@@ -28,7 +28,7 @@ const demoProducts = [
   },
   {
     name: "Physics: Mechanics & Thermodynamics",
-    price: 520.00,
+    price: 450.00,
     description: "Excellent condition. Includes worked solutions for problems.",
     image: "https://images.unsplash.com/photo-1578926078328-123f5424cda2?auto=format&fit=crop&q=80&w=800",
     category: "Textbooks",
@@ -36,7 +36,7 @@ const demoProducts = [
   },
   {
     name: "Bluetooth Wireless Headphones",
-    price: 2499.00,
+    price: 2199.00,
     description: "Noise-cancelling with 20-hour battery. Perfect for studying and online classes.",
     image: "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&q=80&w=800",
     category: "Electronics",
@@ -44,7 +44,7 @@ const demoProducts = [
   },
   {
     name: "Power Bank 20000mAh",
-    price: 1299.00,
+    price: 999.00,
     description: "Fast charging power bank. Keep your phone and laptop charged all day.",
     image: "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?auto=format&fit=crop&q=80&w=800",
     category: "Electronics",
@@ -52,7 +52,7 @@ const demoProducts = [
   },
   {
     name: "USB-C Charging Cable (Pack of 2)",
-    price: 399.00,
+    price: 249.00,
     description: "Durable and fast-charging cables. Compatible with most devices.",
     image: "https://images.unsplash.com/photo-1625948515291-69613efd103f?auto=format&fit=crop&q=80&w=800",
     category: "Electronics",
@@ -60,7 +60,7 @@ const demoProducts = [
   },
   {
     name: "Scientific Calculator Casio",
-    price: 1899.00,
+    price: 1599.00,
     description: "Advanced calculator required for Engineering and Science courses.",
     image: "https://images.unsplash.com/photo-1574607383077-47ddc2dc51c4?auto=format&fit=crop&q=80&w=800",
     category: "Electronics",
@@ -68,7 +68,7 @@ const demoProducts = [
   },
   {
     name: "Premium Notebook Set (Pack of 5)",
-    price: 349.00,
+    price: 225.00,
     description: "High-quality college-ruled notebooks with good paper quality.",
     image: "https://images.unsplash.com/photo-1531346878377-a541e4ab04ce?auto=format&fit=crop&q=80&w=800",
     category: "Stationery",
@@ -76,7 +76,7 @@ const demoProducts = [
   },
   {
     name: "Gel Pen Set (Pack of 12)",
-    price: 199.00,
+    price: 175.00,
     description: "Smooth writing pens in assorted colors. Best for notes and exams.",
     image: "https://images.unsplash.com/photo-1595521624124-e3c4a1795a1f?auto=format&fit=crop&q=80&w=800",
     category: "Stationery",
@@ -84,7 +84,7 @@ const demoProducts = [
   },
   {
     name: "Highlighter Kit (6 Colors)",
-    price: 149.00,
+    price: 125.00,
     description: "Vibrant highlighters for effective note-taking and studying.",
     image: "https://images.unsplash.com/photo-1603808033192-082d6919d3e1?auto=format&fit=crop&q=80&w=800",
     category: "Stationery",
@@ -92,7 +92,7 @@ const demoProducts = [
   },
   {
     name: "Desk Organizer Caddy",
-    price: 499.00,
+    price: 350.00,
     description: "Keep your desk organized with this multi-compartment organizer.",
     image: "https://images.unsplash.com/photo-1610701596007-11502861dcfa?auto=format&fit=crop&q=80&w=800",
     category: "Stationery",
@@ -100,7 +100,7 @@ const demoProducts = [
   },
   {
     name: "LED Desk Lamp with USB Charging",
-    price: 799.00,
+    price: 749.00,
     description: "Adjustable brightness LED lamp with built-in USB port. Perfect for study sessions.",
     image: "https://images.unsplash.com/photo-1507646871324-4df33b0069dc?auto=format&fit=crop&q=80&w=800",
     category: "Dorm Essentials",
@@ -108,7 +108,7 @@ const demoProducts = [
   },
   {
     name: "Portable Laptop Stand",
-    price: 1099.00,
+    price: 999.00,
     description: "Ergonomic laptop stand to improve posture during online classes.",
     image: "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&q=80&w=800",
     category: "Dorm Essentials",
@@ -116,7 +116,7 @@ const demoProducts = [
   },
   {
     name: "Desk Humidity Humidifier",
-    price: 1299.00,
+    price: 1499.00,
     description: "Compact humidifier for your dorm room. Anti-dry environment for your health.",
     image: "https://images.unsplash.com/photo-1598928506149-b339879b625a?auto=format&fit=crop&q=80&w=800",
     category: "Dorm Essentials",
@@ -124,7 +124,7 @@ const demoProducts = [
   },
   {
     name: "Microfiber Bedsheet Set",
-    price: 849.00,
+    price: 749.00,
     description: "Soft and durable bedsheet set in multiple colors. Easy to wash and maintain.",
     image: "https://images.unsplash.com/photo-1559058615-cd4628902ad4?auto=format&fit=crop&q=80&w=800",
     category: "Dorm Essentials",
@@ -132,7 +132,7 @@ const demoProducts = [
   },
   {
     name: "Mix Nuts & Dry Fruits Kit",
-    price: 599.00,
+    price: 485.00,
     description: "Healthy snack box with almonds, cashews, raisins for energy during studies.",
     image: "https://images.unsplash.com/photo-1585518419759-91fedd1284be?auto=format&fit=crop&q=80&w=800",
     category: "Snacks",
@@ -140,7 +140,7 @@ const demoProducts = [
   },
   {
     name: "Energy Bar Bundle (Pack of 12)",
-    price: 499.00,
+    price: 359.00,
     description: "High protein energy bars for quick nutrition. Perfect for busy campus life.",
     image: "https://images.unsplash.com/photo-1590599810694-46ae982e26b2?auto=format&fit=crop&q=80&w=800",
     category: "Snacks",
@@ -148,7 +148,7 @@ const demoProducts = [
   },
   {
     name: "Instant Noodles Pack (24 Packs)",
-    price: 399.00,
+    price: 289.00,
     description: "Quick and tasty noodles for late-night meals. Student favorite!",
     image: "https://images.unsplash.com/photo-1585521924905-5fcd42ec1265?auto=format&fit=crop&q=80&w=800",
     category: "Snacks",
@@ -156,7 +156,7 @@ const demoProducts = [
   },
   {
     name: "Coffee & Tea Combo Pack",
-    price: 349.00,
+    price: 299.00,
     description: "Premium instant coffee and tea assortment. Essential for late-night study sessions.",
     image: "https://images.unsplash.com/photo-1514432324607-2e467f4af445?auto=format&fit=crop&q=80&w=800",
     category: "Snacks",

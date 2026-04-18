@@ -1,0 +1,6 @@
+{
+  "root": "server",
+  "build": {
+    "builder": "nixpacks"
+  }
+}
