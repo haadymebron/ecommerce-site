@@ -1,16 +1,4 @@
 {
-  "version": 2,
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "installCommand": "npm install --legacy-peer-deps",
-  "framework": "vite",
-  "env": {
-    "VITE_API_URL": "@vite_api_url"
-  },
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ]
+  "buildCommand": "cd client && npm ci && npm run build",
+  "outputDirectory": "client/dist"
 }
